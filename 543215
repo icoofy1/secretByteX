@@ -312,7 +312,7 @@ local Misc = main:CreateTab("Misc", "rbxassetid://3192519002")
 ----------------------------------------
 
 ----------------------------------------
-Home:CreateLabel("Hey there! Byte X on top!", false)
+Home:CreateLabel("Byte X on top!", false)
 ----------------------------------------
 
 ----------------------------------------

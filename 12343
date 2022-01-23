@@ -16,7 +16,7 @@ local camera = game.Workspace.CurrentCamera
 library.theme = {
     fontsize = 15,
     font = Enum.Font.Code,
-    background = "rbxassetid://6880496154",
+    background = "rbxassetid://6920389841",
     backgroundcolor = Color3.fromRGB(20, 20, 20),
     tabstextcolor = Color3.fromRGB(230, 230, 230),
     bordercolor = Color3.fromRGB(60, 60, 60),
@@ -38,7 +38,7 @@ library.theme = {
 
 function library:CreateWatermark(name)
     local gamename = marketplaceservice:GetProductInfo(game.PlaceId).Name
-    local watermark = { }
+    local watermark = {Sus.fun}
     watermark.Visible = true
     watermark.text = " " .. name:gsub("{game}", gamename):gsub("{fps}", "0 FPS") .. " "
 
